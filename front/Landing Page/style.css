@@ -1,0 +1,182 @@
+.mediumFont{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+.lightFont{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.ecoNavbar{
+    height: 180px;
+}
+
+.brand{
+    width:70%; 
+    height:70%;
+    padding: 10px 0px 10px 30px;
+}
+
+.ecoNavbarLinks{
+    margin: 0px 40px 0px 0px;
+}
+
+.enterRegister{
+    margin: 0px 40px 0px 0px;
+}
+
+.divisao{
+    padding-top: 7px;
+}
+
+
+/* CSS VIDEO */
+
+/* 100% de largura e altura para cobrir a tela */
+#videoProject{
+    width: 100%;
+    height: 100%;
+    /* position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%; */
+
+}
+
+.main{
+    position:relative;
+    padding-bottom: 2.5px;
+}
+
+/* Add titulo e botão*/
+.content {
+    position: absolute;
+    bottom: 0;
+    color: #f1f1f1;
+    width: 100%;
+    height: 12%;
+    background: rgba(0, 0, 0, 0.5);
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+/* Estilização do botão */
+#myBtn {
+width: 200px;
+font-size: 18px;
+padding: 10px;
+border: none;
+background: #000;
+color: #fff;
+cursor: pointer;
+}
+
+#myBtn:hover {
+background: #ddd;
+color: black;
+}
+
+/* CSS HOW IT WORKS */
+
+#headHowWorks {
+    margin-top: 25px;
+    text-align: center;
+}
+
+#paragHowWorks{
+    padding: 5px 15px 5px 15px;
+}
+
+/* CSS CARD */
+/* #cardSec{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #efefef;
+}
+.slide-content{
+    margin: 0 40px
+}
+.card{
+    border-radius: 25px;
+    background-color: #fff;
+}
+
+.card-image{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;  
+    background-color: #fff;
+    padding: 3px;  
+}
+.card-image .card-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #242038
+} */
+
+.buttonSouEscola {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    text-align: center;
+    color: #0e7e7a;
+  }
+  
+  .buttonSouRede {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    text-align: center;
+    color: #5c78a5;
+  }
+  
+  .buttonSouFalconi {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    text-align: center;
+    color: #ba9a48;
+  }
+
+  #buttonEscola {
+    font-size: 5.5rem;
+  }
+  
+  #buttonEscola:hover {
+    color: white;
+  }
+  
+  #buttonRede {
+    font-size: 5.5rem;
+  }
+  
+  #buttonRede:hover {
+    color: white;
+  }
+  
+  #buttonFalconi {
+    font-size: 5.5rem;
+  }
+  
+  #buttonFalconi:hover {
+    color: white;
+  }
+  
+  .buttonSouEscola:hover {
+    background-color: #0e7e7a;
+    color: white;
+  }
+  
+  .buttonSouRede:hover {
+    background-color: #5c78a5;
+    color: white;
+  }
+  
+  .buttonSouFalconi:hover {
+    background-color: #ba9a48;
+    color: white;
+  }
